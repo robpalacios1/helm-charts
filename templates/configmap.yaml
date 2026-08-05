@@ -5,4 +5,4 @@ metadata:
   labels:
     {{- include "mychart.labels" . | nindent 4 }}
 data:
-  message: {{ .Values.config.message | quote }}
+  message.txt: {{ .Values.config.message | quote }}
