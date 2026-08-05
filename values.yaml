@@ -1,0 +1,22 @@
+replicaCount: 1
+
+image:
+  repository: nginx
+  tag: "1.25-alpine"
+  pullPolicy: IfNotPresent
+
+service: 
+  type: ClusterIP
+  port: 80
+
+resource:
+  limits:
+    cpu: 100m
+    memory: 128Mi
+  requests:
+    cpu: 100m
+    memory: 128Mi
+
+# Content will be injected in a ConfigMap file, then in the app
+config:
+  message: "If you see this message, the Nginx server is working properly."
