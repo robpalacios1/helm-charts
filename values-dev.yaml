@@ -1,0 +1,16 @@
+# Overrides solo para el entorno DEV.
+# Se combina sobre values.yaml: cualquier clave que no aparezca aquí
+# conserva el valor por defecto de values.yaml.
+
+replicaCount: 1
+
+resources:
+  requests:
+    cpu: 50m
+    memory: 64Mi
+  limits:
+    cpu: 100m
+    memory: 128Mi
+
+config:
+  message: "DEV - If you see this message, the Nginx server is working properly."
