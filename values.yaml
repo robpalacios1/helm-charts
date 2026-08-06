@@ -17,6 +17,17 @@ resources:
     cpu: 100m
     memory: 128Mi
 
+ingress:
+  enabled: false
+  className: nginx
+  host: mychart.local
+  path: /
+
+redis:
+  enabled: false
+  auth:
+    enabled: false
+
 # Content will be injected in a ConfigMap file, then in the app
 config:
   message: "If you see this message, the Nginx server is working properly."
