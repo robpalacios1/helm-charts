@@ -133,9 +133,6 @@ helm package .
 ```
 
 ## Author
-
-**Roberto Palacios**
-
 **Roberto Palacios** 
 - [LinkedIn](https://www.linkedin.com/in/robpalacios1)
 - [Portfolio](https://www.robpalacios1.com/)
