@@ -136,6 +136,6 @@ helm package .
 
 **Roberto Palacios**
 
-LinkedIn: [linkedin.com/in/robpalacios1](https://www.linkedin.com/in/robpalacios1/)
-
-Portfolio: [robpalacios1.com](https://www.robpalacios1.com/)
+**Roberto Palacios** 
+— [LinkedIn](https://www.linkedin.com/in/robpalacios1)
+- [Portfolio](https://www.robpalacios1.com/)
