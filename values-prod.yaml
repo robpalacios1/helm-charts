@@ -1,0 +1,14 @@
+# Overrides solo para el entorno PROD.
+
+replicaCount: 3
+
+resources:
+  requests:
+    cpu: 200m
+    memory: 256Mi
+  limits:
+    cpu: 500m
+    memory: 512Mi
+
+config:
+  message: "PROD - If you see this message, the Nginx server is working properly."
